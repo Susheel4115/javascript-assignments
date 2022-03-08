@@ -35,14 +35,13 @@ function removeNthElement(arr, n) {
     */
 
   arr.splice(n, 1);
-
   return arr;
 }
 
-// arr = [1, 2, 3, 4, 5];
-// console.log(getEven(arr));
-// console.log(multiplyByN(arr, 2));
-// console.log(removeNthElement(arr, 0));
+arr = [1, 2, 3, 4, 5];
+console.log(getEven(arr));
+console.log(multiplyByN(arr, 2));
+console.log(removeNthElement(arr, 0));
 
 module.exports = {
   getEven,
