@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+table,
+th,
+td,
+tr {
+  cursor: pointer;
+  /* margin-top: 0.1rem; */
+  /* color: white; */
+}
+
+th {
+  background-color: rgb(151, 124, 124);
+  color: white;
+  height: 30px;
+}
+p {
+  color: white;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(10, 10, 10);
+  /* border: 3px solid rgb(126, 235, 126); */
+}
+
+button {
+  background-color: #be6cee; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
