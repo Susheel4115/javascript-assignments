@@ -1,13 +1,42 @@
 <html>
-    <head>
-        <title>Todo List</title>
-    </head>
-    <body>
-        <div>
-            <input type='text' name='todo_input'>
-            <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
-        </div>
-    </body>
-    <script src='./script.js'></script>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      tr:hover {
+        background-color: rgb(223, 165, 145);
+      }
+      button:hover {
+        background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <!-- <input type="text" name="todo_input" /> -->
+      <p>To fetch the all todo items</p>
+      <button type="submit">FeTcH</button>
+      <div class="todos"></div>
+      <p>To fetch just Completed</p>
+
+      <button class="btn1" type="submit">Completed</button>
+      <p>To fetch just pending</p>
+
+      <button class="btn2" type="submit">Pending</button>
+    </div>
+  </body>
+  <table id="users"></table>
+  <script src="./script.js"></script>
 </html>
